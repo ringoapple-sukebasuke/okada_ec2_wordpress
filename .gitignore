@@ -1,0 +1,15 @@
+# 独自で追記部分
+.DS_Store
+.data
+.htaccess
+wp-config.php
+docker-compose.yml
+
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
